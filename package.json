@@ -1,0 +1,20 @@
+{
+  "name": "node-can-do",
+  "version": "0.1.0",
+  "keywords": [
+    "node",
+    "npm",
+    "version"
+  ],
+  "description": "CLI tool for enforcing Node/npm versions with Hall & Oates lyrics",
+  "repository": "https://www.github.com/nicheinc/node-can-do",
+  "homepage": "https://www.github.com/nicheinc/node-can-do#readme",
+  "bugs": {
+    "url": "https://www.github.com/nicheinc/node-can-do/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": "./index.js",
+  "license": "MIT"
+}

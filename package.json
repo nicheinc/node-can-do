@@ -12,9 +12,16 @@
   "bugs": {
     "url": "https://www.github.com/nicheinc/node-can-do/issues"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "files": [
-    "index.js"
+    "/lib",
+    "cli.js"
   ],
   "bin": "./cli.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.7.0"
+  }
 }

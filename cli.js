@@ -1,4 +1,4 @@
 #! /usr/bin/env node
-const nodeCanDo = require('./lib.js')
+const nodeCanDo = require('./lib')
 
 nodeCanDo()

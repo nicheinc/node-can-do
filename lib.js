@@ -4,7 +4,9 @@ const fs = require('fs')
 const os = require('os')
 const path = require('path')
 
-const packageJson = require('../../package.json')
+const cwd = process.cwd()
+const packageJsonPath = path.join(cwd, '/package.json')
+const packageJson = require(packageJsonPath)
 
 const COLOR_BAR = '\x1b[32m' // green
 const COLOR_EIGHTH = '\x1b[35m' // magenta
@@ -173,7 +175,7 @@ function main(_ = _getDependencies()) {
     const packageNodeVersion = getPackageNodeVersion(pjson)
     const packageNpmVersion = getPackageNpmVersion(pjson)
 
-    const nvmrcPath = nodePath.join(__dirname, '../../.nvmrc')
+    const nvmrcPath = nodePath.join(cwd, '/.nvmrc')
     // things we have to get asynchronously
     const getAsyncVersions = Promise.all([getNvmrcVersion(fileSystem, nvmrcPath), getRunningNpmVersion(childProcess)])
 

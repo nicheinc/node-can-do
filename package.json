@@ -16,7 +16,7 @@
     "test": "jest"
   },
   "files": [
-    "/lib",
+    "lib",
     "cli.js"
   ],
   "bin": "./cli.js",

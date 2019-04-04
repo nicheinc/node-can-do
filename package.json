@@ -16,9 +16,8 @@
     "test": "jest"
   },
   "files": [
-    "lib",
-    "cli.js"
+    "lib"
   ],
-  "bin": "./cli.js",
+  "bin": "./lib/cli.js",
   "license": "MIT"
 }

@@ -55,11 +55,11 @@ Finally, run
 npm run myscript
 ```
 
-If you are running the versions of Node and npm that are specified in `package.json` or `.nvmrc`, then your script should continue as normal.
+If you are running the versions of Node and npm that are specified in `package.json` or `.nvmrc`, then your script should continue as normal 🎉.
 
-If you are running a different version of Node and/or npm, `node-can-do` will produce terminal output informing you to change your version of the incorrect tool, and then stop script execution with an exit code 1.
+If you are running a different version of Node and/or npm, `node-can-do` will produce terminal output informing you to change your version of the incorrect tool, and then stop script execution with an exit code 1 🛑.
 
-If there is no specified version of Node and/or npm, `node-can-do` will produce terminal output informing you to add your required versions in one of the locations specified in [Usage](https://github.com/nicheinc/node-can-do/#usage), and then stop script execution with an exit code 1.
+If there is no specified version of Node and/or npm, `node-can-do` will produce terminal output informing you to add your required versions in one of the locations specified in [Usage](https://github.com/nicheinc/node-can-do/#usage), and then stop script execution with an exit code 1 🛑.
 
 ## Issues
 

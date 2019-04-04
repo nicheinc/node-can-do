@@ -20,8 +20,5 @@
     "cli.js"
   ],
   "bin": "./cli.js",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^24.7.0"
-  }
+  "license": "MIT"
 }

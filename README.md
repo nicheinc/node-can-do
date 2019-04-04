@@ -31,3 +31,7 @@ Or preferably using the [`pre` script hook](https://docs.npmjs.com/misc/scripts#
   "myscript": "node ./index.js"
 }
 ```
+
+## Issues
+
+Feel free to file issues at https://github.com/nicheinc/node-can-do/issues/new

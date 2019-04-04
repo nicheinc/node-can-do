@@ -12,12 +12,10 @@
   "bugs": {
     "url": "https://www.github.com/nicheinc/node-can-do/issues"
   },
-  "scripts": {
-    "test": "jest"
-  },
   "files": [
     "lib"
   ],
   "bin": "./lib/cli.js",
+  "main": "./lib/index.js",
   "license": "MIT"
 }

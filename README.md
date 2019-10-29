@@ -19,8 +19,8 @@ First, specify the version of Node and version of npm that you would like to enf
 
 ```json
 "engines": {
-  "node": "10.15.3",
-  "npm": "6.9.0"    
+  "node": "12.13.0",
+  "npm": "6.12.1"    
 },
 ```
 
@@ -29,10 +29,10 @@ Make sure to only use a specific value, no version ranges.
 In addition/instead of `package.json`, you can specify the version of Node you would like to enforce in an [`.nvmrc`](https://github.com/creationix/nvm#nvmrc) file.
 
 ```
-10.15.3
+12.13.0
 ```
 
-Next, we recommend using `node-can-do` in conjunction with [`npm scripts`](https://docs.npmjs.com/misc/script) in `package.json`, e.g.
+Next, we recommend using `node-can-do` in conjunction with [`npm scripts`](https://docs.npmjs.com/misc/scripts) in `package.json`, e.g.
 
 ```json
 "scripts": {
